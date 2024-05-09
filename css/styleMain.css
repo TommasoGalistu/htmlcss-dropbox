@@ -1,5 +1,53 @@
-/* debug */
-main{
+main {
+    /* debug */
     width: 100%;
     height: 50rem;
+}
+
+/* sezioni standardizzate contenitore
+ dimensioni tutte uguali */
+.containerMain {
+    width: 50%;
+    margin: 8rem auto;
+    border: 1px solid grey;
+    /* debug */
+
+    background-color: red;
+}
+
+.contColAbbonamenti {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    /* debug */
+
+    background-color: rgb(77, 91, 249);
+}
+
+.sezAbbonamenti {
+    width: calc((100% / 3) - 40px);
+
+    /* debug */
+
+
+    background-color: rgb(175, 245, 184);
+    border: 1px solid black;
+}
+
+.sezAbbonamenti .parteAlta {
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.contaSubSezioni {
+    margin-top: 2rem;
+    width: 70%;
+    margin: auto;
+}
+
+.paroleImportanti{}
+
+.contFlex{
+    display: inline-block;
 }
