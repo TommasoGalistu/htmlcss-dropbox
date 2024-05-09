@@ -1,7 +1,7 @@
 main {
     /* debug */
     width: 100%;
-    height: 50rem;
+    height: 100rem;
 }
 
 /* sezioni standardizzate contenitore
@@ -34,20 +34,30 @@ main {
     border: 1px solid black;
 }
 
-.sezAbbonamenti .parteAlta {
+.parteAlta {
     width: 100%;
     height: 2rem;
     border-bottom: 1px solid black;
 }
 
+/* contenitore interno */
 .contaSubSezioni {
-    margin-top: 2rem;
-    width: 70%;
-    margin: auto;
+    padding: 0 20px;
+    margin: 30px auto;
 }
 
 .paroleImportanti{}
 
 .contFlex{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerMain img{
+    height: 20rem;
+}
+
+/* classe doppia per flexare due elementi */
+.flexiamo{
+    display: flex;
 }
