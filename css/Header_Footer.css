@@ -22,28 +22,26 @@ header{
 }
 
 .contMenu{
-    height: 100%;
     display: flex;
     align-items: center;
+    height: 100%;
     /* debug */
-    width: 40rem;
+    
     background-color: aqua;
     border: 1px solid black;
 }
 
 
 .menu{
-    /* debug */
     height: 100%;
-    width: 25%;
+    /* debug */
     background-color: bisque;
     border: 1px solid brown;
 }
 .menu ul{
-    height: 100%;
     display: flex;
     align-items: center;
-
+    height: 100%;
     /* debug */
     background-color: blueviolet;
     
@@ -53,13 +51,14 @@ li{
     list-style-type: none;
 }
 .menu li{
-    
+    height: 100%;
+    padding: 13% 5px 0;
     /* debug */
     color: black;
     background-color: yellow;
 }
 
-.menu .estremiMenu{
+.menu .menuEstremi{
     
 }
 
@@ -130,8 +129,3 @@ footer .containerHeadFootPrincipale {
 
 
 
-/* debug */
-main{
-    width: 100%;
-    height: 50rem;
-}
