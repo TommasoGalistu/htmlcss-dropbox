@@ -4,5 +4,106 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 42rem;
+    background-color: #B4D0E7;
+    /* debug */
+    
+}
+
+#contParteAltaHeader{
+    height: 5rem;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contMenu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* debug */
+    width: 40rem;
+    background-color: aqua;
+    border: 1px solid black;
+}
 
 
+.menu{
+    /* debug */
+    height: 100%;
+    width: 25%;
+    background-color: bisque;
+    border: 1px solid brown;
+}
+.menu ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    /* debug */
+    background-color: blueviolet;
+    
+    
+}
+li{
+    list-style-type: none;
+}
+.menu li{
+    
+    /* debug */
+    color: black;
+    background-color: yellow;
+}
+
+.menu .estremiMenu{
+    
+}
+
+
+.containerHeadPrincipale{
+    width: 65%;
+    margin: auto;
+    padding-top: 9rem;
+    text-align: center;
+    
+    /* debug */
+    height: 100%;
+    background-color: rgb(55, 55, 133);
+    
+}
+
+.contJumboText{
+    display: flex;
+
+    /* debug */
+    background-color: red;
+}
+
+.contJumboText img{
+    height: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+main{
+    width: 100%;
+    height: 100rem;
+}
