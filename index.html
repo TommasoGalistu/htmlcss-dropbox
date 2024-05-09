@@ -213,45 +213,7 @@
                         </ul>
                     </div>
                 </div>
-                <!-- colonna quattro -->
-                <div class="sezAbbonamenti">
-                    <!-- intestazione -->
-                    <div class="parteAlta">
-                        icon e prova
-                    </div>
-                    <!-- inizio corpo della colonna -->
-                    <div class="contaSubSezioni dettagliCosti">
-                        <h4>prova</h4>
-                        <strong class="paroleImportanti">12€</strong>
-                        <span>/mese</span>
-                    </div>
-                    <!-- elenco di funzionalità per l'abbonamento -->
-                    <div class="contaSubSezioni">
-                        <ul>
-                            <li>icon e parola a caso</li>
-                            <li>icon e parola a caso</li>
-                            <li>icon e parola a caso</li>
-                        </ul>
-                    </div>
-                    <!-- bottone per iscriveri -->
-                    <div class="contaSubSezioni">
-                        <a href="#">bottone</a>
-                    </div>
-                    <div class="contaSubSezioni">
-                        <span>oppure <a href="#">acquista ora</a></span>
-                    </div>
-                    <!-- linea bianca che delimita una macrosezione dall'altra -->
-                    <div class="bottomBorderBox"></div>
 
-                    <!-- riepilogo descrizione abbonamento -->
-                    <div class="contaSubSezioni">
-                        <strong>Punti salienti</strong>
-                        <ul>
-                            <li>check e frase all'interno</li>
-                            <li>check e frase all'interno</li>
-                        </ul>
-                    </div>
-                </div>
 
 
             </div>
@@ -262,7 +224,7 @@
                 <span>icon Team</span>
             </div>
             <!-- contenuto -->
-            <div class="contaSubSezioni contFlex">
+            <div class="contaSubSezioni contColAbbonamenti">
                 <div class="colFlexate">
                     <h3>Enterprise</h3>
                     <strong class="paroleImportanti">12€</strong>
@@ -272,25 +234,29 @@
                 </div>
             </div>
         </div>
+
         <!-- terza parte con foto e descrizione -->
+        <!-- debug da capire perchè le due sezioni non stanno in flex -->
         <div class="containerMain">
-            <div class="flexiamo">
+            <div class="contColAbbonamenti">
                 <div class="ridimensionaFoto">
                     <img class="imgMedia" src="img/partner.png" alt="immagini di due ragazzi che camminano in azienda">
                 </div>
                 <div class="contaSubSezioni testFlexato">
                     <h3>prova di testo</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum deserunt, qui similique repudiandae
-                        earum officia nisi delectus nostrum quia ex incidunt praesentium nesciunt? Beatae velit accusantium
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum deserunt, qui similique
+                        repudiandae
+                        earum officia nisi delectus nostrum quia ex incidunt praesentium nesciunt? Beatae velit
+                        accusantium
                         omnis autem aut aspernatur.</p>
                 </div>
             </div>
-            
+
         </div>
         <!-- quarta parte con foto dimostrative dell'applicazione-->
         <div class="containerMain">
             <h2>Esegui più operazioni con Dropbox Business</h2>
-            <div class="flexiamo">
+            <div class="contColAbbonamenti">
                 <div class="fotoeDescrizione">
                     <img src="img/business-feature-switching-tools.png" alt="">
                     <h3>Passa di meno da uno strumento all'altro</h3>
@@ -354,6 +320,12 @@
         </div>
 
     </footer>
+
+
+
+    <!-- controllare la sezione 3 del main perchè non flexa, sistemare
+         la sezione 4. Ho cambiato qualche contenitore per usare meno 
+         classi possibili -->
     <script src="bonus/js/javascript.js"></script>
 </body>
 

@@ -20,6 +20,8 @@ main {
     display: flex;
     gap: 40px;
     justify-content: space-between;
+    flex-wrap: wrap;
+
     /* debug */
 
     background-color: rgb(77, 91, 249);
@@ -49,20 +51,14 @@ main {
 
 .paroleImportanti{}
 
-.contFlex{
-    display: flex;
-    justify-content: space-between;
-}
 
-/* classe doppia per flexare due elementi */
-.flexiamo{
-    display: flex;
-    flex-wrap: wrap;
-}
+
+
+
 
 
 .ridimensionaFoto{
-    width: 20rem;
+    width: 50%;
 }
 
 
@@ -75,7 +71,7 @@ main {
 
 /* da rivedere per mettere il testo accanto alla foto */
 .testFlexato{
-    width: calc(100% - 20rem);
+    
 }
 
 
