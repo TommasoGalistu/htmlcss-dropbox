@@ -1,7 +1,7 @@
 main {
     /* debug */
     width: 100%;
-    height: 100rem;
+    margin-bottom: 50rem;
 }
 
 /* sezioni standardizzate contenitore
@@ -10,6 +10,7 @@ main {
     width: 50%;
     margin: 8rem auto;
     border: 1px solid grey;
+    display: ;
     /* debug */
 
     background-color: red;
@@ -53,11 +54,35 @@ main {
     justify-content: space-between;
 }
 
-.containerMain img{
-    height: 20rem;
-}
-
 /* classe doppia per flexare due elementi */
 .flexiamo{
     display: flex;
+    flex-wrap: wrap;
+}
+
+
+.ridimensionaFoto{
+    width: 20rem;
+}
+
+
+.containerMain .imgMedia{
+    width: 100%;
+
+    /* debug */
+    background-color: blue;
+}
+
+/* da rivedere per mettere il testo accanto alla foto */
+.testFlexato{
+    width: calc(100% - 20rem);
+}
+
+
+.fotoeDescrizione {
+    width: 15rem;
+}
+
+.fotoeDescrizione img{
+    width: 100%;
 }
