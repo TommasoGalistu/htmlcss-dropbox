@@ -154,15 +154,49 @@ h3{
     border: 1px solid black;
     
 }
-.contFotoPartner{
+
+/* inizio banner con i partner */
+.contFotoPartner {
     width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .contFotoPartner img{
     width: 50%;
 }
+
+.item:hover{
+    border: 10px solid rgba(255, 255, 255, 0.2);
+}
+
+.foto1{
+    background-color: #A2D39B;
+}
+.foto2{
+    background-color: #61082B;
+}
+.foto3{
+    background-color: #0093CE;
+}
+.foto4{
+    background-color: #FF1C1C;
+}
+.foto5{
+    background-color: #D5001F;
+}
+.foto6{
+    background-color: #B4D0E7;
+}
+.foto7{
+    background-color: #0D2481;
+}
+.foto8{
+    background-color: #FFD830;
+}
+
 
 .descrizioneCentrale{
     overflow-x: hidden;
