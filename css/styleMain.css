@@ -10,12 +10,11 @@ main {
     margin: 8rem auto;
 }
 
-#inizioAbbonamenti{
-    margin-bottom: 2rem;
-}
+
 
 h3{
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .testoImputRadio{
@@ -122,6 +121,21 @@ h3{
 .fotoeDescrizione img{
     width: 100%;
 }
+
+.linkNormale{
+    color: blue;
+    font-size: 1rem;
+}
+
+.linkNormale:hover{
+    color: rgba(0, 0, 255, 0.5);
+}
+
+.linkNormale:active{
+    color: rgb(17, 17, 71);
+}
+
+
 
 .contBanner{
     height: 25rem;
