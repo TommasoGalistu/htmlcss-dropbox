@@ -8,46 +8,68 @@ main {
 .containerMain {
     width: 50%;
     margin: 8rem auto;
-    border: 1px solid grey;
-    /* debug */
+}
 
-    background-color: red;
+h3{
+    font-size: 2rem;
+    margin: 6rem 0 2rem;
+}
+
+.testoImputRadio{
+    margin-right: 1rem;
 }
 
 .contGenFlex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-    /* debug */
-
-    background-color: rgb(77, 91, 249);
+    margin-top: 2rem;
 }
 
 .sezAbbonamenti {
-    width: calc((100% / 3) - 40px);
+    width: calc((100% / 3) - 15px);
+    
+}
 
-    /* debug */
-
-
-    background-color: rgb(175, 245, 184);
-    border: 1px solid black;
+.borderGrey{
+    border: 1px solid rgba(140, 140, 140, 0.5);
 }
 
 .parteAlta {
     width: 100%;
     height: 2rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* contenitore interno */
+.testoIcone{
+    font-weight: normal;
+    list-style-position: inside;
+}
+.testoIcone:before{
+    content: ' '
+}
+
+/* contenitore interno generico */
 .contaSubSezioni {
     padding: 0 20px;
     margin: 30px auto;
 }
 
-.paroleImportanti{}
 
+.contaSubSezioni ul { 
+    line-height: 180% ;
+ }
+
+ h4{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+ }
+ .bottoniClass {
+    text-align: center;
+ }
 
 
 
@@ -105,6 +127,11 @@ main {
 
 }
 
+.bottomBorderBox{
+    width: 3rem;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.5);
+    
+}
 .contBanner.pubblicita{
     height: 17rem;
     

@@ -3,8 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Open sans;
+    
 }
 
+body {
+    font-size: 0.8rem;
+}
 header{
     height: 42rem;
     background-color: #B4D0E7;
@@ -12,7 +16,7 @@ header{
 }
 
 /* inizio menu fixed */
-#contParteAltaHeader{
+#contparteAlta{
     height: 5rem;
     width: 100%;
     background-color: white;
@@ -20,13 +24,13 @@ header{
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 3px rgba(140, 140, 140, 0.2);
+    z-index: 100;
 }
 
 .contMenu{
     display: flex;
     align-items: center;
     height: 100%;
-    
 }
 
 
@@ -41,6 +45,7 @@ header{
 
 li{
     list-style-type: none;
+
 }
 
 .menu li{
@@ -87,9 +92,8 @@ h1{
     padding-bottom: 2rem;
 }
 
-p{
+p {
     padding: 2rem 0;
-    font-size: 0.8rem;
 }
 
 .fa-arrow-down-long{
@@ -97,11 +101,11 @@ p{
 }
 
 
-.contJumboText {
+.contJumbo {
     height: 25rem;
     position: relative;
 }
-.contJumboText img{
+.contJumbo img{
     height: 100%;
     
 }
