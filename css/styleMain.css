@@ -110,10 +110,14 @@ h3{
     width: 50%;
 }
 
+.wrappa{
+    flex-wrap: wrap;
 
-.fotoeDescrizione {
-    width: 15rem;
 }
+.fotoeDescrizione {
+    width: calc(100% / 3);
+}
+
 
 .fotoeDescrizione img{
     width: 100%;
