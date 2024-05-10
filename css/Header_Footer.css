@@ -8,83 +8,105 @@
 header{
     height: 42rem;
     background-color: #B4D0E7;
-    /* debug */
-    
+   
 }
 
+/* inizio menu fixed */
 #contParteAltaHeader{
     height: 5rem;
     width: 100%;
-    background-color: blue;
+    background-color: white;
     position: fixed;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 3px rgba(140, 140, 140, 0.2);
 }
 
 .contMenu{
     display: flex;
     align-items: center;
     height: 100%;
-    /* debug */
     
-    background-color: aqua;
-    border: 1px solid black;
 }
 
 
 .menu{
     height: 100%;
-    /* debug */
-    background-color: bisque;
-    border: 1px solid brown;
+    
 }
 .menu ul{
     display: flex;
-    align-items: center;
     height: 100%;
-    /* debug */
-    background-color: blueviolet;
-    
-    
 }
+
 li{
     list-style-type: none;
 }
+
 .menu li{
     height: 100%;
-    padding: 13% 5px 0;
-    /* debug */
-    color: black;
-    background-color: yellow;
+    padding: 8% 12px 0;
+    
 }
 
-.menu .menuEstremi{
+.menu li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.bottoni{
+    background-color: #0061FF;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
     
 }
 
 
+.bottoni:hover{
+    background-color: rgba(0, 97, 255, 0.8);
+}
+
+.bottoni:active{
+    background-color: rgba(0, 97, 255, 0.5);
+}
+
+/* inizio parte header JUMBO */
 .containerHeadFootPrincipale{
     width: 65%;
     margin: auto;
     padding-top: 9rem;
-    
-    
-    /* debug */
-    height: 100%;
-    background-color: rgb(55, 55, 133);
-    
 }
 
 .contJumboText{
     display: flex;
-
-    /* debug */
-    background-color: red;
 }
 
+h1{
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+p{
+    padding: 2rem 0;
+    font-size: 0.8rem;
+}
+
+.fa-arrow-down-long{
+    font-size: 2rem;
+}
+
+
+.contJumboText {
+    height: 25rem;
+    position: relative;
+}
 .contJumboText img{
-    height: 20rem;
+    height: 100%;
+    
 }
+
+
 
 footer{
     height: 30rem;
