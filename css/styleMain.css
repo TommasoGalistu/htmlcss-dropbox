@@ -1,7 +1,6 @@
 main {
     /* debug */
     width: 100%;
-    margin-bottom: 50rem;
 }
 
 /* sezioni standardizzate contenitore
@@ -111,4 +110,13 @@ main {
     
     /* debug */
     background-color: pink;
+}
+
+/* capire perchè non funziona */
+.faq strong{
+    margin: 1rem 0;
+}
+.faq .fa-chevron-down{
+    /* posizionale le freccie in giu 
+    tutte a destra */
 }
