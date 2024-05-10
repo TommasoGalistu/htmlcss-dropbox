@@ -10,7 +10,6 @@ main {
     width: 50%;
     margin: 8rem auto;
     border: 1px solid grey;
-    display: ;
     /* debug */
 
     background-color: red;
@@ -18,7 +17,6 @@ main {
 
 .contColAbbonamenti {
     display: flex;
-    gap: 40px;
     justify-content: space-between;
     flex-wrap: wrap;
 
@@ -54,9 +52,6 @@ main {
 
 
 
-
-
-
 .ridimensionaFoto{
     width: 50%;
 }
@@ -71,7 +66,7 @@ main {
 
 /* da rivedere per mettere il testo accanto alla foto */
 .testFlexato{
-    
+    width: 50%;
 }
 
 
