@@ -15,7 +15,7 @@ main {
     background-color: red;
 }
 
-.contColAbbonamenti {
+.contGenFlex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@ main {
     background-color: blue;
 }
 
-/* da rivedere per mettere il testo accanto alla foto */
+
 .testFlexato{
     width: 50%;
 }
@@ -76,4 +76,39 @@ main {
 
 .fotoeDescrizione img{
     width: 100%;
+}
+
+.contBanner{
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    /* debug */
+    background-color: red;
+}
+
+.fotoPartner{
+    width: calc(100% / 3);
+    height: 100%;
+    
+    /* debug */
+    background-color: pink;
+    border: 1px solid black;
+    
+}
+
+
+.descrizioneCentrale{
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* debug */
+    background-color: rgb(209, 161, 169);
+    border: 1px solid black;
+
+}
+
+.contBanner.pubblicita{
+    height: 17rem;
+    
+    /* debug */
+    background-color: pink;
 }
