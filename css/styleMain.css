@@ -212,12 +212,28 @@ h3{
     border-bottom: 1px solid rgba(140, 140, 140, 0.5);
     
 }
+
+h5 {
+    font-size: 5rem;
+}
+
+h6{
+    font-size: 2rem;
+}
+
+
 .contBanner.pubblicita{
     height: 17rem;
-    
+    background-color: #B4D0E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     /* debug */
-    background-color: pink;
+    
 }
+
+
 
 /* capire perchè non funziona */
 .faq strong{
@@ -227,3 +243,4 @@ h3{
     /* posizionale le freccie in giu 
     tutte a destra */
 }
+
