@@ -234,13 +234,25 @@ h6{
 }
 
 
+.faq h2{
+    padding-bottom: 3rem;
+    border-bottom: 2px solid rgb(186, 186, 186);
+}
+.faqContainer{
+    border-bottom: 2px solid rgb(186, 186, 186);
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.faq {
+    margin-bottom: 6rem; 
+}
+
 
 /* capire perchè non funziona */
-.faq strong{
-    margin: 1rem 0;
-}
-.faq .fa-chevron-down{
-    /* posizionale le freccie in giu 
-    tutte a destra */
-}
+
+
 
