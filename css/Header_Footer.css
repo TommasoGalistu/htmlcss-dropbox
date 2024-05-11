@@ -6,9 +6,7 @@
     
 }
 
-body {
-    font-size: 0.8rem;
-}
+
 header{
     height: 42rem;
     background-color: #B4D0E7;
@@ -38,6 +36,7 @@ header{
     height: 100%;
     
 }
+
 .menu ul{
     display: flex;
     height: 100%;
@@ -54,11 +53,6 @@ li{
     
 }
 
-.menu li:hover{
-    border-bottom: 2px solid black;
-    cursor: pointer;
-}
-
 .bottoni{
     background-color: #0061FF;
     padding: 5px 20px;
@@ -66,15 +60,6 @@ li{
     color: white;
     white-space: nowrap; /* Impedisce al testo di andare a capo */
     
-}
-
-
-.bottoni:hover{
-    background-color: rgba(0, 97, 255, 0.8);
-}
-
-.bottoni:active{
-    background-color: rgba(0, 97, 255, 0.5);
 }
 
 /* inizio parte header JUMBO */
@@ -88,15 +73,6 @@ li{
     display: flex;
 }
 
-h1{
-    font-size: 3.5rem;
-    padding-bottom: 2rem;
-}
-
-p {
-    padding: 2rem 0;
-}
-
 .fa-arrow-down-long{
     font-size: 2rem;
 }
@@ -106,6 +82,7 @@ p {
     height: 25rem;
     position: relative;
 }
+
 .contJumbo img{
     height: 100%;
     
@@ -134,10 +111,7 @@ footer .containerHeadFootPrincipale {
 
 }
 
-/* .containerHeadFootPrincipale .foot:last-child {
-    display: inline-block;
 
-} */
 
 .bottomBorderBox{
     width: 3rem;

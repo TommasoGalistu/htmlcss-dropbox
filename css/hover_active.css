@@ -1,0 +1,38 @@
+.menu li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.bottoni:hover{
+    background-color: rgba(0, 97, 255, 0.8);
+}
+
+.bottoni:active{
+    background-color: rgba(0, 97, 255, 0.5);
+}
+
+.testoIcone:before{
+    content: ' '
+}
+
+.bottoneGrigio:hover{
+    color: black;
+    background-color: rgba(220 , 220, 220, 0.3);
+}
+
+.bottoneGrigio:active{
+    color: black;
+    background-color: rgba(220 , 220, 220, 0.6);
+}
+
+.linkNormale:hover{
+    color: rgba(0, 0, 255, 0.5);
+}
+
+.linkNormale:active{
+    color: rgb(17, 17, 71);
+}
+
+.item:hover{
+    border: 10px solid rgba(255, 255, 255, 0.2);
+}
