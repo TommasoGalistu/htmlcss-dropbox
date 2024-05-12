@@ -3,16 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Open sans;
-    
+    line-height: 160%
 }
 
 
 
 header{
-    height: 42rem;
+    height: 46rem;
     background-color: #B4D0E7;
    
 }
+
 
 /* inizio menu fixed */
 #contparteAlta{
@@ -64,7 +65,7 @@ header{
 }
 
 .contJumbo {
-    height: 25rem;
+    height: 27rem;
     position: relative;
 }
 
@@ -98,11 +99,6 @@ footer .containerHeadFootPrincipale {
 
 
 
-.bottomBorderBox{
-    width: 3rem;
-    height: 20px;
-    border-bottom: 1px solid white;
-}
 
 
 

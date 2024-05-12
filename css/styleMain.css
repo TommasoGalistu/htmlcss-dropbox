@@ -3,14 +3,10 @@ main {
     width: 100%;
 }
 
-/* sezioni standardizzate contenitore
- dimensioni tutte uguali */
-.containerMain {
-    width: 50%;
-    margin: 8rem auto;
-}
+
 
 .testoImputRadio{
+    margin-top: 1rem;
     margin-right: 1rem;
 }
 
@@ -43,24 +39,6 @@ main {
 }
 
 
-/* contenitore interno generico */
-.contaSubSezioni {
-    padding: 0 20px;
-    margin: 30px auto;
-    /* debug */
-    /* background-color: red; */
-}
-
-
-
-
-
- .bottoniClass {
-    text-align: center;
- }
-
-
-
  /* inizio terza parte */
 .ridimensionaFoto{
     width: 50%;
@@ -70,16 +48,6 @@ main {
 .containerMain .imgMedia{
     width: 100%;
 }
-
-.bottoneGrigio{
-    text-decoration: none;
-    color: grey;
-    background-color: white;
-    padding: 5px 20px;
-    border: 1px solid grey;
-}
-
-
 
 
 .testFlexato{
@@ -105,6 +73,7 @@ main {
     font-size: 1rem;
 }
 
+/* inizio banner con i partner */
 .contBanner{
     height: 25rem;
     width: 100%;
@@ -115,13 +84,9 @@ main {
     width: calc(100% / 3);
     height: 100%;
     
-    /* debug */
-    background-color: pink;
-    border: 1px solid black;
-    
 }
 
-/* inizio banner con i partner */
+
 .contFotoPartner {
     width: 50%;
     height: 50%;
@@ -165,11 +130,15 @@ main {
 .descrizioneCentrale{
     overflow-x: hidden;
     overflow-y: auto;
-    /* debug */
-    background-color: rgb(209, 161, 169);
-    border: 1px solid black;
-
+    background-color: #F5F5F5;
+    padding: 0 2rem;
 }
+
+.descrizioneCentrale h5:after {
+    content: ' \00AE';
+    font-size: 1rem;
+}
+
 
 .bottomBorderBox{
     width: 3rem;
@@ -177,18 +146,12 @@ main {
     
 }
 
-
-
-
 .contBanner.pubblicita{
     height: 17rem;
     background-color: #B4D0E7;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* debug */
-    
 }
 
 

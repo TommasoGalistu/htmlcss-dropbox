@@ -2,6 +2,18 @@ main, footer {
     font-size: 0.8rem;
 }
 
+/* sezioni standardizzate contenitore
+ dimensioni tutte uguali */
+ .containerMain {
+    width: 50%;
+    margin: 8rem auto;
+}
+
+/* contenitore interno generico */
+.contaSubSezioni {
+    padding: 0 20px;
+    margin: 30px auto;
+}
 
 h1{
     font-size: 3.5rem;
@@ -26,6 +38,7 @@ h3{
 
 h5 {
     font-size: 5rem;
+    height: 100px;
 }
 
 h6{
@@ -42,17 +55,23 @@ p {
 }
 
 
+
 li, a{
     list-style-type: none;
     text-decoration: none;
 }
 
-a{
-    color: white;
-}
 main li, footer li { 
     margin: 10px 0;
  }
+
+a{
+    color: white;
+}
+
+input{
+    margin-bottom: 2rem;
+}
 
 .bottoni{
     background-color: #0061FF;
@@ -63,3 +82,20 @@ main li, footer li {
     
 }
 
+.bottoniClass {
+    text-align: center;
+ }
+
+ .bottoneGrigio{
+    text-decoration: none;
+    color: grey;
+    background-color: white;
+    padding: 5px 20px;
+    border: 1px solid grey;
+}
+
+.bottomBorderBox{
+    width: 3rem;
+    height: 20px;
+    border-bottom: 1px solid white;
+}
