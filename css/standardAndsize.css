@@ -41,10 +41,18 @@ p {
     font-size: 2rem;
 }
 
-li{
-    list-style-type: none;
 
+li, a{
+    list-style-type: none;
+    text-decoration: none;
 }
+
+a{
+    color: white;
+}
+main li, footer li { 
+    margin: 10px 0;
+ }
 
 .bottoni{
     background-color: #0061FF;
