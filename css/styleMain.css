@@ -129,6 +129,9 @@ main {
     font-size: 1rem;
 }
 
+.carSpeciale{
+
+}
 
 .bottomBorderBox{
     width: 3rem;
@@ -158,6 +161,27 @@ main {
 .faq {
     margin-bottom: 6rem; 
 }
+
+/* prova tendina con risposta */
+
+summary{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+summary::after {
+    content: '';
+    width: 18px;
+    height: 20px;
+    background-image: url('../img/reshot-icon-arrow-chevron-right-WDGHUKQ634.svg');
+    background-size: cover;
+    margin-left: .75em;
+    transition: 0.2s;
+  }
+
 
 
 
