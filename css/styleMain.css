@@ -147,30 +147,18 @@ main {
     align-items: center;
 }
 
-
+/* inizio parte FAQ */
 
 .faqContainer{
     border-bottom: 2px solid rgb(186, 186, 186);
-    height: 6rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    padding: 2rem 0;
 }
-
-.faq {
-    margin-bottom: 6rem; 
-}
-
-/* prova tendina con risposta */
 
 summary{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
-
-
 
 summary::after {
     content: '';
