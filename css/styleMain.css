@@ -83,6 +83,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5;
+    background-color: black;
     
 }
 
@@ -127,11 +129,10 @@ main {
 .descrizioneCentrale h5:after {
     content: '\00AE';
     font-size: 1rem;
+    position: absolute;
 }
 
-.carSpeciale{
 
-}
 
 .bottomBorderBox{
     width: 3rem;
