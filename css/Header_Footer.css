@@ -54,6 +54,9 @@ header{
     
 }
 
+.menuEstremi{
+    margin: 0 1rem;
+}
 /* dropdown css */
 header a{
     color: black;
